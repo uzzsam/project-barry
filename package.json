@@ -1,31 +1,18 @@
 {
-  // Name of the project
   "name": "project-barry-backend",
-  // Initial version
   "version": "1.0.0",
-  // Brief description
   "description": "Backend API for Project Barry chatbot",
-  // Entry point (though Vercel handles this via /api routes)
-  "main": "api/chat.js", // Note: Vercel uses the compiled JS output
+  "main": "api/chat.js",
   "scripts": {
-    // Script to compile TypeScript to JavaScript
     "build": "tsc",
-    // Script to run the development server (using Vercel CLI)
     "dev": "vercel dev",
-    // Placeholder for future test script
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  // Author details (optional)
   "author": "uzzsam",
-  // License (e.g., MIT, ISC)
   "license": "ISC",
-  // Development dependencies needed for TypeScript
   "devDependencies": {
-    "@types/node": "^20.14.10", // Type definitions for Node.js
-    "typescript": "^5.5.3"      // TypeScript compiler
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
   },
-  // Production dependencies (none needed strictly for Phase 1 core structure)
-  "dependencies": {
-     // Dependencies for Phase 2/3 (like jose, openai, mongodb) will be added later
-  }
+  "dependencies": {}
 }
