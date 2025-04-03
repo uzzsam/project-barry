@@ -10,6 +10,9 @@
   },
   "author": "uzzsam",
   "license": "ISC",
+  "engines": {
+    "node": "20.x"
+  },
   "devDependencies": {
     "@types/node": "^20.14.10",
     "typescript": "^5.5.3"
