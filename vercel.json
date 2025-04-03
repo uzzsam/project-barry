@@ -4,7 +4,7 @@
   "outputDirectory": ".",
   "functions": {
     "api/**/*.ts": {
-      "runtime": "@vercel/edge",
+      "runtime": "@vercel/edge@1.0.0",
       "memory": 128
     }
   },
@@ -18,5 +18,6 @@
     "env": {}
   }
 }
+
 
 
