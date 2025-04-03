@@ -12,9 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.10",
+    "@types/next": "^14.0.0",
     "typescript": "^5.5.3"
   },
-  "dependencies": {
-    "@vercel/edge": "^1.1.1"
-  }
+  "dependencies": {}
 }
