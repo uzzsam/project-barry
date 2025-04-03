@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "tsc",
   "outputDirectory": ".",
   "functions": {
     "api/**/*.ts": {
@@ -19,3 +18,4 @@
     "env": {}
   }
 }
+
