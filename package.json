@@ -14,5 +14,7 @@
     "@types/node": "^20.14.10",
     "typescript": "^5.5.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@vercel/edge": "^1.1.1"
+  }
 }
